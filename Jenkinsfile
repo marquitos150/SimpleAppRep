@@ -4,7 +4,7 @@ pipeline {
 	tools {nodejs "node"}
 	environment {
 		imageName = mvazquez1/simple_app.
-		dockerCredentialsName = 'dockerhub-creds'
+		dockerCredentialsName='dockerhub-creds'
 		dockerImage = ''
 	}
 
